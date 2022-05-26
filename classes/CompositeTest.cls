@@ -1,6 +1,17 @@
+/**
+ * @description       : test clases for extenal iterators
+ * @author            : ing.cristian.diaz@gmail.com
+ * @last modified on  : ISO8601: 2022-05-26
+ * @last modified by  : ing.cristian.diaz@gmail.com
+**/
 @isTest
 class CompositeTest {
     
+    /**
+    * @description create a tree for all tests
+    * @author ing.cristian.diaz@gmail.com | ISO8601: 2022-05-26 
+    * @return Component 
+    **/
     static Component createTree(){
 
         /** create the following tree
@@ -35,6 +46,10 @@ class CompositeTest {
         return F;
     }
 
+    /**
+    * @description check the preorder iterator
+    * @author ing.cristian.diaz@gmail.com | ISO8601: 2022-05-26 
+    **/
     @isTest
     static void preOrder(){
         
@@ -53,6 +68,10 @@ class CompositeTest {
         
     }
 
+    /**
+    * @description check the post order iterator
+    * @author ing.cristian.diaz@gmail.com | ISO8601: 2022-05-26 
+    **/
     @isTest
     static void postOrder(){
         
